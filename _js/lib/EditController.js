@@ -3,9 +3,9 @@ define(
   $ =>
     function EditController() {
       const OXYGEN = 'https://www.oxygenxml.com/webapp-demo-aws/app/oxygen.html'
-      const PROJECT_BASE = 'github://getFileContent/dita-ot/docs/'
+      const PROJECT_BASE = 'github://getFileContent/ContentGraz/dita-ot-docs/'
       const PROJECT_MAP = 'userguide-book.ditamap'
-      const PROJECT_BRANCH = 'develop'
+      const PROJECT_BRANCH = 'cos17-indexing'
 
       return {
         createEditLink
